@@ -1,0 +1,122 @@
+.App {
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+h1 {
+	background-color: bisque;
+	border: 2px solid crimson;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.center {
+	width: 90%;
+	text-align: center;
+	background-color: #F2F2F2;
+}
+
+button {
+	cursor: pointer;
+	padding: 10px;
+	background-color: bisque;
+	border: 2px solid crimson;
+	border-radius: 20px;
+	margin: 20px;
+}
+
+.cartBtn {
+	position: absolute;
+	right: 100px;
+}
+
+.logoutBtn {
+	position: absolute;
+	left: 100px;
+}
+
+table {
+	border: 2px solid crimson;
+	border-radius: 20px;
+	padding: 20px;
+	background-color: bisque;
+	border-radius: 20px;
+}
+
+
+
+td, th {
+	padding: 15px;
+	margin: 15px;
+}
+
+.deleteIcon {
+	width: 30px;
+	cursor: pointer;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.urlBox {
+	font-size: 8px;
+}
+
+.edit {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.historyList {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+.albumImg {
+	width: 200px;
+	border: 1px solid black;
+}
+
+.albumBox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid crimson;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 10px;
+	background-color: bisque;
+	cursor: pointer;
+	width: 230px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+input {
+	padding: 10px;
+	border-radius: 10px;
+}
+
+
